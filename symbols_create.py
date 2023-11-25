@@ -8,12 +8,12 @@ base_letter = ord('a')
 
 # 保存基本字母
 for i in range(26):
-    letter_lis.append(chr(base_letter+i))
+    letter_lis.append(chr(base_letter+i)+' ')
 
 # 保存数字
 base_num = ord('0')
 for i in range(10):
-    letter_lis.append(chr(base_letter+i))
+    letter_lis.append(chr(base_letter+i)+' ')
 
 # 保存希腊字母
 #1. lambda
